@@ -7,7 +7,7 @@ You can find more info about this repository [here](https://medium.com/@graphcoo
 ## Usage
 
 ```sh
-git clone git@github.com:nikolasburk/graphql-rest-wrapper.git
+git clone git@github.com:atefBB/graphql-rest-wrapper.git
 cd graphql-rest-wrapper
 yarn start
 ```
