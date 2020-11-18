@@ -1,12 +1,22 @@
 type Query {
   users: [User!]!
   user(id: ID!): User
+  commands: [Command!]!
+  command(id: ID!): Command
 }
 
 type User {
-  id: ID!
-  name: String!
-  username: String!
-  email: String!
+  id: Int
+  name: String
+  username: String
+  email: String
 }
 
+type Command {
+  command_id: Int
+  billing_name: String
+  date: Int
+  total: Int
+  payment_status: String
+  payment_method: String
+}
